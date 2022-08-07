@@ -18,7 +18,7 @@ console.log(numbers);
 
 // var arr = ['a', 'b', 'd'];
 // console.log(arr);
-// let start = 2; // index position --> from where an element will be added or removed
+// let start = 2; // index position --> from where an element will be added 
 // let deleteCount = 0; // index position --> from where the function will start working
 // arr.splice(start, deleteCount, 'c'); //the value which will be added
 // console.log(arr); //result
@@ -26,7 +26,10 @@ console.log(numbers);
 var arr = ['a', 'b', 'd'];
 console.log(arr);
 
-arr.splice(2, 0, 'c'); //2,0 are index position of array arr
+arr.splice(2, 0, 'c'); // 2--> index position from where an element will be added && 0--> index position of array from where the function will start working && 'c' the value which will be added
+console.log(arr);
+
+arr.splice(2, 'c'); // 2--> index position from where an element will be added && 'c' the value which will be added
 console.log(arr);
 
 // remove an element from the middle of an array
@@ -34,8 +37,8 @@ console.log(arr);
 var arr = ['a', 'b', 'c', 'd'];
 console.log(arr);
 
-arr.splice(2, 1); // 2--> index position, 1--> number of items will be removed
+arr.splice(2, 1); // 2--> index position of array from where items will be removed && 1--> number of items will be removed
 console.log(arr);
 
-arr.splice(2, 2); // 2--> index position, 1--> number of items will be removed
+arr.splice(2, 2); // 2--> index position of array from where items will be removed && 2--> number of items will be removed
 console.log(arr);
