@@ -55,17 +55,17 @@
 
 // var studentsMark = [85, 66, 95, 56, 40];
 
-// if (amarMark >= A || amarMark >= B || amarMark >= C || amarMark >= D) { console.log('pass korchi') }
-// else { console.log('bashai gale khobor ase') };
+// if (amarMark >= A || amarMark >= B || amarMark >= C || amarMark >= D) { console.log('pass korchi'); }
+// else { console.log('bashai gale khobor ase'); }
 
-// if (studentsMark >= A) { console.log('A paise') }
-// else { console.log('A paini') };
+// if (studentsMark >= A) { console.log('A paise'); }
+// else { console.log('A paini'); }
 
-// if (marks >= A) { console.log('A grade') }
-// else if (marks >= B && marks < A) { console.log('B grade') }
-// else if (marks >= C && marks < B) { console.log('C grade') }
-// else if (marks >= D && marks < C) { console.log('D grade') }
-// else { console.log('F grade') };
+// if (marks >= A) { console.log('A grade'); }
+// else if (marks >= B && marks < A) { console.log('B grade'); }
+// else if (marks >= C && marks < B) { console.log('C grade');}
+// else if (marks >= D && marks < C) { console.log('D grade'); }
+// else { console.log('F grade'); }
 
 // **********************************************************************
 
@@ -78,15 +78,16 @@
 // var number2 = 79;
 // var number3 = 45;
 
-// if (number1 > number2 && number1 > number3) { console.log(number1) }
-// else if (number2 > number1 && number2 > number3) { console.log(number2) }
-// else { console.log(number3) };
+// if (number1 > number2 && number1 > number3) { console.log(number1); }
+// else if (number2 > number1 && number2 > number3) { console.log(number2); }
+// else { console.log(number3); }
 
 // Solution 3b:
 
-var side1 = 9;
-var side2 = 8;
-var side3 = 9;
+// var side1 = 9;
+// var side2 = 8;
+// var side3 = 9;
 
-if (side1 === side2 || side1 === side3 || side2 === side3) { console.log('It is a Isoscele triangle') }
-else { console.log('This is not a Isoscele triangle') };
+// if (side1 === side2 || side1 === side3 || side2 === side3) { console.log('It is a Isoscele triangle'); }
+// else { console.log('This is not a Isoscele triangle'); }
+
