@@ -67,3 +67,29 @@ function removeDuplicate(array) {
 let myArray = [23, 23, 434, 453, 53, 23, 453, 56];
 let freshArray = removeDuplicate(myArray);
 console.log(freshArray);
+
+/******* find longest strig of an array *************/
+var longest = arr.reduce(
+    function (a, b) {
+        return a.length > b.length ? a : b;
+    }
+);
+/* or */
+var longest = arr.sort(
+    function (a, b) {
+        return b.length - a.length;
+    }
+)[0];
+
+/******* find longest strig of an array *************/
+const max = array.reduce((a, b) => Math.max(a, b), -Infinity);
+const min = array.reduce((a, b) => Math.min(a, b));
+
+/* or */
+console.log(Math.max(...arr));
+console.log(Math.min(...arr));
+
+/* or */
+
+var maximum = arr.sort(function (a, b) { return b - a; })[0];
+var minimum = arr.sort(function (a, b) { return a - b; })[0];
