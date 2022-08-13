@@ -42,3 +42,28 @@ console.log(arr);
 
 arr.splice(2, 2); // 2--> index position of array from where items will be removed && 2--> number of items will be removed
 console.log(arr);
+
+/*************** Check array type ==> Array.isArray(array name) ==> Array.isArray(age) ******************/
+
+/************** Check an element is inside the array or not ==> Array.array name.includes(value)  ==> array.age(45)*************/
+
+/******* adding 2 arrays  ==> newArrayName = 1stArray.concat(2ndArray) *************/
+
+/******* take a part of an array  ==> newArrayName = array.slice(starting index, ending index) ==> newArray = array.slice(2,7) --> will give a new array from index position 2 to 6 of original array and will not change the original array. *************/
+
+/******* remove duplicate values from an array *************/
+
+function removeDuplicate(array) {
+    let newArray = [];
+    for (i = 0; i < array.length; i++) {
+        let element = array[i];
+        if (newArray.includes(element) == false) {
+            newArray.push(element);
+        }
+    }
+    return newArray;
+}
+
+let myArray = [23, 23, 434, 453, 53, 23, 453, 56];
+let freshArray = removeDuplicate(myArray);
+console.log(freshArray);
