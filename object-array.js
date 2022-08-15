@@ -22,7 +22,7 @@ function cheapestPhone(Phones) {
 }
 
 let CheapestPhone = cheapestPhone(phones);
-// console.log('The cheapest phone is:', CheapestPhone);
+// console.log('The cheapest phone is:', CheapestPhone);  
 
 /***********************************/
 
@@ -132,4 +132,32 @@ function totalPrice(tickets) {
 
 let ticket = 25;
 let totalCostOfTickets = totalPrice(ticket);
-console.log('Total price will be:', totalCostOfTickets);
+// console.log('Total price will be:', totalCostOfTickets);
+
+
+/***********************************/
+/* 6. Find element based on condition */
+
+let mobiles = [
+    { name: 'iPhone', camera: '13mp', storage: '256gb', color: 'ocean blue', price: 82000 },
+    { name: 'Samsung', camera: '18mp', storage: '256gb', color: 'purple', price: 62000 },
+    { name: 'Huwai', camera: '32mp', storage: '256gb', color: 'Blue', price: 72000 },
+    { name: 'Xaomi', camera: '48mp', storage: '256gb', color: 'cool green', price: 52000 },
+    { name: 'Nokia', camera: '16mp', storage: '256gb', color: 'royal blue', price: 58000 },
+    { name: 'HTC', camera: '20mp', storage: '256gb', color: 'sky Blue', price: 68000 },
+    { name: 'Sony', camera: '24mp', storage: '256gb', color: 'hot pink', price: 69000 },
+]
+
+function matchedProducts(mobiles, search) {
+
+    let matchString = [];
+    for (let mobile of mobiles) {
+        if (mobile.color.toLowerCase().includes(search.toLowerCase())) {
+            matchString.push(mobile);
+        }
+    }
+    return matchString;
+}
+
+let result = matchedProducts(mobiles, 'blue');
+console.log(result);
