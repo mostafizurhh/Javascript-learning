@@ -18,3 +18,6 @@ const phone = {
 }
 const { memory, model, camera } = phone; //variable name must be same as object property
 console.log(memory);
+
+const division = num1, num2 => console.log(num1 / num2);
+console.log(division(4, 2));
