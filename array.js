@@ -82,14 +82,13 @@ var longest = arr.sort(
 )[0];
 
 /******* find longest strig of an array *************/
-const max = array.reduce((a, b) => Math.max(a, b), -Infinity);
 const min = array.reduce((a, b) => Math.min(a, b));
+const max = array.reduce((a, b) => Math.max(a, b), -Infinity);
 
 /* or */
 console.log(Math.max(...arr));
 console.log(Math.min(...arr));
 
 /* or */
-
 var maximum = arr.sort(function (a, b) { return b - a; })[0];
 var minimum = arr.sort(function (a, b) { return a - b; })[0];

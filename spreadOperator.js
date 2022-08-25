@@ -6,3 +6,6 @@ console.log(Math.min(...num));
 
 const num2 = [...num, 6, 7, 8, 9];
 console.log(num2);
+
+
+
