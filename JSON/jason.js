@@ -19,7 +19,8 @@ const user = {
         "name": "Romaguera-Crona",
         "catchPhrase": "Multi-layered client-server neural-net",
         "bs": "harness real-time e-markets"
-    }
+    },
+    "Revenue": ['123', '234', '345']
 }
 const userJSON = JSON.stringify(user); //convert any object to JSON string value
 console.log(userJSON);
