@@ -58,9 +58,9 @@ const displaySeasonInfo = (allSeasons) => {
     allSeasons.forEach(season => {
         const seasonDiv = document.createElement('div');
         seasonDiv.innerHTML = `
-        <div class = "seasoninfo">
-            <h3>League Season: {${season.strSeason}}</h3>
-        </div>
+       
+            <h3 class = "seasoninfo">League Season: {${season.strSeason}}</h3>
+      
         `
         seasonContainer.appendChild(seasonDiv)
     })
