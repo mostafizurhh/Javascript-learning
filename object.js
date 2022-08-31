@@ -45,7 +45,7 @@
 //     storage: '1TB',
 //     color: 'Silver'
 // }
-
+// console.log(Object.keys(myComputer).length); //to get the length of an object
 // var keys = Object.keys(myComputer);
 // // console.log(keys);
 // var values = Object.values(myComputer);
