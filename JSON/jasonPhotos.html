@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Photos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body class="container">
+    <header>
+        <h1 class="text-center">Showing photos from JSON Placeholder</h1>
+    </header>
+    <main>
+        <section>
+            <!-- show clicked div -->
+            <div id="showClickedDiv" class="mt-4">
+            </div>
+            <!-- show all photos as div from JSON Placeholder -->
+            <div id="photoContainer" class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            </div>
+
+            <!-- Scrollable Modal -->
+            <div class="modal fade" id="photoInfoModal" tabindex="-1" aria-labelledby="photoInfoModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="photoInfoModalLabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="modalBody" class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="jsonPhotos.js"></script>
+</body>
+
+</html>
