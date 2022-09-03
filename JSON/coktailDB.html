@@ -15,8 +15,28 @@
     </header>
     <main>
         <section>
-            <div>
+            <!-- search field -->
 
+            <!-- show all cocktail div -->
+            <div id="cocktailContainer" class="row row-cols-1 row-cols-md-3 g-4">
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="cocktailModal" tabindex="-1" aria-labelledby="cocktailModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="cocktailModalLabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="body" class="modal-body">
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
